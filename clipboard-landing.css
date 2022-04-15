@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "Bai Jamjuree";
+    src: url("BaiJamjuree-Regular.ttf");
+    Weights: 400, 600
+}
+
+body {
+    font-family: "Bai Jamjuree";
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background: url(bg-header-desktop.png);
+    padding: 20px;
+    margin: 0;
+    height: 200px;
+}
+
+.logo {
+    margin-top: 5%;
+    height: 100px;
+}
+
+.download {
+    display: flex;
+    justify-content: space-around;
+}
+
+#iOS {
+    background-color: rgb(45, 183, 50);
+    border-radius: 10%;
+}
+
+#Mac {
+    background-color: rgb(104, 146, 152);
+    border-radius: 10%;
+}
+
+.quick-img img {
+    height: 500px;
+    float: left;
+    margin-left: -50px;
+}
+
+.textimag {
+    display: flex;
+    justify-content: space-around;
+}
+
+.elements {
+    margin-left: 30px;
+}
+
+.phototablette {
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+}
+
+#minitextlogo {
+    display: flex;
+    justify-content: space-around;
+}
+
+#logotime {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: gray;
+}
+
+#footix {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    list-style: none;
+}
+
+.footerlogo img {
+    margin-top: 15px;
+    height: 50px;
+}
+
+.logorestants {
+    margin-top: 25px;
+}
